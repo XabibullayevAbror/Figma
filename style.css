@@ -1,0 +1,78 @@
+header{
+    background-color: rgba(84, 81, 81, 0.475);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1300px;
+    height: 116px;
+}
+
+button{
+    width: 183px;
+    height: 36px;
+    top: 40px;
+    left: 1155px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+button:hover{
+    color: white;
+    background-color: rgba(224, 18, 18);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+        font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: rgba(224, 18, 18);
+}
+
+nav{
+    width: 500px;
+    justify-content: space-around;
+    display: flex;
+}
+
+h1{
+    font-family: Roboto Slab;
+font-size: 48px;
+font-weight: 500;
+line-height: 63.3px;
+text-align: center;
+border: 3px solid;
+width: 700px;
+margin: auto;
+border-radius: 50px;
+background: rgba(217, 217, 217, 1);
+color: rgba(162, 73, 73, 1);
+font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+h1:hover{
+    background-color: rgb(224, 18, 18);
+    color: white;
+}
+
+.card{
+    width: 393px;
+    height: 396px;
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.card:hover{
+    background-color: rgb(224, 18, 18);
+    color: white;
+}
+
+.box{
+    display: flex;
+}
